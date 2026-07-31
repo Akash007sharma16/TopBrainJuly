@@ -1,0 +1,11 @@
+# Build output
+bin/
+obj/
+
+# VS / Rider
+.vs/
+*.user
+*.suo
+
+# dotnet
+*.DotSettings.user
