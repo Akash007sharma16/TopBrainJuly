@@ -1,5 +1,0 @@
-[2026-08-12 10:27:22] INFO: Application started
-[2026-08-12 10:27:22] INFO: User logged in
-[2026-08-12 10:27:22] ERROR: Database connection failed | Exception: Unable to connect to database
-[2026-08-12 10:27:22] WARNING: Memory usage is high
-[2026-08-12 10:27:22] ERROR: File not found | Exception: Configuration file missing

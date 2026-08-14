@@ -6,13 +6,16 @@ class Lab1
     {
         string original = " Hello, Training Team! ";
 
+        // TODO 1: Trim the string
         string trimmed = original.Trim();
 
+        // TODO 2: Compare original and trimmed
         Console.WriteLine(
             "ReferenceEquals(original, trimmed): " +
             object.ReferenceEquals(original, trimmed)
         );
 
+        // TODO 3: String operations
         Console.WriteLine(
             "Contains \"Training\": " +
             trimmed.Contains("Training")
@@ -37,6 +40,7 @@ class Lab1
             "\"Training Team\" replaced -> " + replaced
         );
 
+        // TODO 4: Split into words
         string[] words = trimmed.Split(
             new char[] { ' ', ',' },
             StringSplitOptions.RemoveEmptyEntries
@@ -47,6 +51,7 @@ class Lab1
             Console.WriteLine(word);
         }
 
+        // TODO 5: IsNullOrWhiteSpace
         Console.WriteLine(
             "IsNullOrWhiteSpace(null): " +
             string.IsNullOrWhiteSpace(null)
